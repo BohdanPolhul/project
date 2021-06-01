@@ -1,0 +1,23 @@
+.main-form {
+  gap: 5px;
+  grid-row: 3;
+  row-gap: 5px;
+  width:50%;
+  height: 20%;
+}
+.main-form__label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+}
+.labeltext{
+  color:black
+}
+@media (max-width:800px){
+  .main-form__label {
+    font-size: 14px;
+    display: inline-block;
+  }
+}
+

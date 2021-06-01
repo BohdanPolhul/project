@@ -1,0 +1,28 @@
+.matrix__item {
+  background-image: linear-gradient(to right, rgb(68, 117, 94) 0% 0%, rgb(241, 234, 163) 0% 100%);
+}
+.matrix__item:hover {
+  cursor: pointer;
+}
+.matrix__item:focus {
+  outline: 0;
+}
+.matrix__item_higlight {
+  font-weight: bold;
+  color: blue;
+}
+.matrix__item__button-text {
+  color: gray;
+  mix-blend-mode: difference;
+}
+.matrix__column-average {
+  color: red;
+  margin-top:0;
+}
+.matrix__row-sum {
+  color: green;
+  margin-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
